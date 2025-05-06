@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snufik Weather</title>
+    <link rel="shortcut icon" href="images/web-logo.png" type="image/png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="day-mode">
+      <header>
+        <h1>Weather</h1>
+        <div class="buttons">
+          <button class="celsius" id="cel">C</button>
+          <button class="fahrenheit" id="fah">F</button>
+        </div>
+      </header>
+
+      <div class="background day" id="background">
+        <img
+          class="character"
+          id="snufik"
+          alt="Snufik"
+        />
+        <p id="temperature">&deg;481</p>
+        <p id="weather-description">It's sunny today</p>
+      </div>
+    </div>
+
+    <div class="city-input">
+      <input
+        type="text"
+        id="city-input"
+        placeholder="Enter City"
+        value="Oslo"/>
+      <button id="city-btn">Get Weather</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
