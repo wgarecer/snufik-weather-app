@@ -8,7 +8,7 @@ Design is for **NATURE LOVERS**.
 ## 📸 Screenshots
 
 ### Day Mode
-![Day Mode](screenshots/screenshot1.png)
+![Day Mode](screenshots/Screenshot1.png)
 
 ### Night Mode
-![Night Mode](screenshots/screenshot2.png)
+![Night Mode](screenshots/Screenshot2.png)
